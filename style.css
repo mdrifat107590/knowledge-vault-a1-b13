@@ -48,7 +48,7 @@ nav button {
 }
 
 .hero {
-    background-image: url('assets/hero-bg.png');
+    background-image: url('./assets/hero-bg.png');
     height: 674px;
     background-position: center;
     background-size: cover;
@@ -181,7 +181,7 @@ nav button {
 }
 
 .solutionLIst {
-    list-style: url('assets/CheckCircle.png');
+    list-style: url('./assets/CheckCircle.png');
     padding-left: 20px;
 }
 
@@ -190,7 +190,7 @@ nav button {
 }
 
 .graphic-side {
-    background-image: url('assets/knowledge.png');
+    background-image: url('./assets/knowledge.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
