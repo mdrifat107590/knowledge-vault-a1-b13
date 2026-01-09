@@ -46,7 +46,7 @@ nav button {
 }
 
 .hero {
-    background-image: url('./assets/hero-bg.png');
+    background-image: url('assets/hero-bg.png');
     height: 674px;
     background-position: center;
     background-size: cover;
@@ -184,14 +184,14 @@ nav button {
     margin-bottom: 10px;
 }
 .solutionLIst{
-    list-style: url('./assets/CheckCircle.png');
+    list-style: url('assets/CheckCircle.png');
     display: flex;
     flex-direction: column;
     padding-top: 10px;
     padding-left: 20px;
 }
 .graphic-side  {
-    background-image: url('./assets/knowledge.png');
+    background-image: url('assets/knowledge.png');
     /* padding: 100px; */
     background-repeat: no-repeat;
     background-size: cover;
