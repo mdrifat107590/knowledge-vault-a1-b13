@@ -167,7 +167,7 @@ nav button {
 .solution {
     display: flex;
     justify-content: space-around;
-    gap: 20px;
+    gap: 100px;
     align-items: center;
     max-width: 1200px;
     margin: 0 auto;
@@ -181,15 +181,23 @@ nav button {
 .solution h2 {
     font-size: 2.5rem;
     color: black;
-    font-weight: 800;
     margin-bottom: 10px;
 }
 .solutionLIst{
-    list-style: url('/assets/CheckCircle.png');
+    list-style: url('./assets/CheckCircle.png');
     display: flex;
     flex-direction: column;
     padding-top: 10px;
     padding-left: 20px;
+}
+.graphic-side  {
+    background-image: url('./assets/knowledge.png');
+    /* padding: 100px; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 700px;
+    height: 400px;
 }
 .cta-wrapper {
     width: 100%;
@@ -256,9 +264,8 @@ nav button {
     font-size: 14px;
     margin-top: 25px;
 }
-/* Footer Styles */
 .footer {
-    background-color: #001a2e; /* Deep dark blue background */
+    background-color: #001a2e; 
     color: #ffffff;
     padding: 60px 20px 20px 20px;
     font-family: Arial, sans-serif;
@@ -268,13 +275,12 @@ nav button {
     max-width: 1100px;
     margin: 0 auto;
     display: flex;
-    justify-content: space-between; /* Logo bame, Social dan-e */
+    justify-content: space-between; 
     align-items: flex-start;
-    border-bottom: 1px dashed rgba(255, 255, 255, 0.2); /* Middle line indicator */
+    border-bottom: 1px dashed rgba(255, 255, 255, 0.2); 
     padding-bottom: 40px;
 }
 
-/* Logo Design */
 .logo-wrapper {
     display: flex;
     align-items: center;
@@ -289,7 +295,7 @@ nav button {
     display: block;
     font-size: 32px;
     font-weight: bold;
-    color: #4caf50; /* Green color from the image */
+    color: #4caf50;
     line-height: 1;
 }
 
@@ -299,7 +305,6 @@ nav button {
     text-transform: uppercase;
 }
 
-/* Social Links */
 .footer-social h3 {
     font-size: 18px;
     margin-bottom: 15px;
@@ -330,7 +335,6 @@ nav button {
     background: #4caf50;
 }
 
-/* Bottom Copyright */
 .footer-bottom {
     text-align: center;
     margin-top: 30px;
