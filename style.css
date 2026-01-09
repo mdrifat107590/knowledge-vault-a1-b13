@@ -133,7 +133,7 @@ nav button {
     box-shadow: 0 4px 10px rgba(0,0,0,0.15);
 }
 
-.feature-icon {
+.fIcon {
     background-color: #f87171;
     width: 60px;
     height: 60px;
@@ -144,7 +144,7 @@ nav button {
     margin: 0 auto 20px;
 }
 
-.feature-icon img {
+.fIcon img {
     width: 30px;
     height: 30px;
 }
