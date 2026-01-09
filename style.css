@@ -48,7 +48,7 @@ nav button {
 }
 
 .hero {
-    background-image: url('./assets/hero-bg.png');
+    background-image: url('hero-bg.png');
     height: 674px;
     background-position: center;
     background-size: cover;
