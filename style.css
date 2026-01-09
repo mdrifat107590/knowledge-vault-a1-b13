@@ -2,6 +2,12 @@
     padding: 0;
     margin: 0;
 }
+.flexing{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
 nav{
     display: flex;
     justify-content: space-around;
@@ -21,3 +27,58 @@ nav ul li a{
     color: black;
     cursor: pointer;
 }
+nav button{
+    padding: 10px;
+    font-size: 16px;
+    background: green;
+    border: none;
+    color: white;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.hero{
+    background-image: url('./assets/hero-bg.png') ;
+    height: 674px;
+    background-position: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.heroCn{
+    margin: 0 auto;
+    text-align: center;
+    color: white;
+}
+.heroCn h1{
+    font-size: 48px;
+}
+.heroCn p{
+    width: 600px;
+    padding: 30px 0;
+    margin: 0 auto;
+}
+.g-text{
+    color: green;
+    display: block;
+}
+.heroCn button{
+    padding: 15px;
+    border-radius: 10px;
+    font-size: 17px;
+}
+.b1{
+    background-color: green;
+    color: white;
+    border: none;
+}
+.b2{
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 10px;
+    color: white;
+    font-size: 17px;
+    padding: 8px 20px;
+    cursor: pointer;
+    outline: 1px;
+}
+
