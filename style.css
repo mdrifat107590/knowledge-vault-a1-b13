@@ -96,7 +96,7 @@ nav button {
 }
 
 .container {
-    max-width: 1200px;
+    max-width: 1000px;
     margin: 0 auto;
     text-align: center;
     padding: 50px 0;
@@ -185,4 +185,68 @@ nav button {
     flex-direction: column;
     padding-top: 10px;
     padding-left: 20px;
+}
+.cta-wrapper {
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.cta-card {
+    background-color: #f9f8f3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 900px;
+    padding: 80px 40px;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.02);
+}
+
+.cta-heading {
+    color: #0a1d37; 
+    font-size: 36px;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+.cta-subtext {
+    color: #6b7280;
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 35px;
+}
+
+.cta-button {
+    background-color: #4c956c;
+    color: white;
+    border: none;
+    padding: 14px 28px;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 6px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    box-shadow: 0 4px 12px rgba(76, 149, 108, 0.2);
+}
+
+.cta-button:hover {
+    background-color: #3d7a58;
+    transform: translateY(-2px);
+}
+
+.cta-button .arrow {
+    font-size: 20px;
+}
+
+.cta-footer-note {
+    color: #9ca3af; 
+    font-size: 14px;
+    margin-top: 25px;
 }
