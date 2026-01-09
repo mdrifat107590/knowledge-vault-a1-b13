@@ -1,6 +1,7 @@
 * {
     padding: 0;
     margin: 0;
+    overflow-x: hidden;
 }
 
 .flexing {
@@ -45,10 +46,12 @@ nav button {
 .hero {
     background-image: url('./assets/hero-bg.png');
     height: 674px;
-    background-position: cover;
+    background-position: center;
+    background-size: cover;
     display: flex;
     justify-content: center;
     align-items: center;
+    background-repeat: no-repeat;
 }
 
 .heroCn {
@@ -249,4 +252,85 @@ nav button {
     color: #9ca3af; 
     font-size: 14px;
     margin-top: 25px;
+}
+/* Footer Styles */
+.footer {
+    background-color: #001a2e; /* Deep dark blue background */
+    color: #ffffff;
+    padding: 60px 20px 20px 20px;
+    font-family: Arial, sans-serif;
+}
+
+.footer-container {
+    max-width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between; /* Logo bame, Social dan-e */
+    align-items: flex-start;
+    border-bottom: 1px dashed rgba(255, 255, 255, 0.2); /* Middle line indicator */
+    padding-bottom: 40px;
+}
+
+/* Logo Design */
+.logo-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.bulb-icon {
+    font-size: 40px;
+}
+
+.kv-brand {
+    display: block;
+    font-size: 32px;
+    font-weight: bold;
+    color: #4caf50; /* Green color from the image */
+    line-height: 1;
+}
+
+.tagline {
+    font-size: 12px;
+    color: #ccc;
+    text-transform: uppercase;
+}
+
+/* Social Links */
+.footer-social h3 {
+    font-size: 18px;
+    margin-bottom: 15px;
+    text-align: right;
+}
+
+.social-icons {
+    display: flex;
+    gap: 15px;
+    justify-content: flex-end;
+}
+
+.social-icons .icon {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    background: rgba(255, 255, 255, 0.1);
+    width: 35px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    transition: 0.3s;
+}
+
+.social-icons .icon:hover {
+    background: #4caf50;
+}
+
+/* Bottom Copyright */
+.footer-bottom {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 14px;
+    color: #8899a6;
 }
